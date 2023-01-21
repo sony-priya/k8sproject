@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deplyment
+metadata:
+  name: vpromq01
+  labels:
+    app: vpromq01
+spec:
+  replicas: 1
+  selector:
+    app: vpromq01
+  template:
+    metadata:
+      labels:
+        app: vpromq01
+    spec:
+      containers:
+        - name:
+          image: rabbitmq
+          ports:
+            - name: vpromq-port
+              port: 15672
+          env:
+            - name: RABBITMQ_DEFAULT_PASS
+              valueFrom:
+                secretKeyRef:
+                  key: rmq-pass
+                  name: app-secret
+            - name: RABBITMQ_DEFAULT_USER
+              value: "guest"
