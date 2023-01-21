@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cd782c-210c-4298-9745-be34ef84be69" name="Changes" comment="dbpod">
-      <change afterPath="$PROJECT_DIR$/db-cip.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mem-cip.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmq-CIP.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmq-dep.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vproapp-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vproappdep.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vpromemdep.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8sproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem-cip.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mem-cip.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rmq-CIP.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/rmq-CIP.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vpromemdep.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vpromemdep.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674331475216</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dbpod">
+      <created>1674334191962</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674334191962</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: vpromq01
 spec:
-  type: ClusterIp
+  type: ClusterIP
   ports:
     - port: 15672
       targetPort: vprormq-port

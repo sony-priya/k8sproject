@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: vpromc
+  name: vprocache01
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: vpomc
+      app: vprocache01
   template:
     metadata:
       labels:
-        app: vpromc
+        app: vprocache01
     spec:
       containers:
         - name: vpromc
